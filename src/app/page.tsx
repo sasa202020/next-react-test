@@ -1,6 +1,9 @@
 import Image from 'next/image'
-import { BuilderComponent } from '@builder.io/react';
-
+import type { Metadata } from 'next'
+export const metadata: Metadata = {
+  title: 'MEGa title solving mystery',
+  description: 'amazing description for the website',
+}
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
