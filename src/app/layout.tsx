@@ -3,7 +3,10 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
-
+export const metadata: Metadata = {
+  title: 'MEGa title solving mystery',
+  description: 'amazing description for the website',
+}
 export default function RootLayout({
   children,
 }: {
