@@ -15,6 +15,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      <head>
+    <meta name="og:title" content="Vercel Edge NetworkASDASDA12321312312321" />
+    <meta name="og:description" content="Vercel Edge NetworkASDASDASD312132312321321" />
+    <meta
+      name="og:url"
+      content="https://vercel.com/docs/edge-network/overview"
+    />
+  </head>
     </html>
   )
 }
